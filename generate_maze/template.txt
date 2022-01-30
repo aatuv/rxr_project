@@ -1,0 +1,59 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.581 -0.57 -0.58 2.11
+  position 1.54 93.3 -0.617
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+Pioneer3at {
+  translation -15.5 0 -14.5
+  controller "my_controller"
+  extensionSlot [
+    Compass {
+      translation 0 0 0.29
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.03 0.03
+          }
+        }
+      ]
+    }
+    Camera {
+      translation 0.255238 -8.6494e-05 0.175101
+      rotation 0.0015609693329336357 0.9999985726595019 -0.0006465707236937505 1.57081
+      width 16
+      height 16
+      fieldOfView 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.03 0.03
+          }
+        }
+      ]
+    }
+    PointLight {
+      attenuation 0 0 1
+      color 1 1 1
+      intensity 1
+      location 0.1 0 0.1
+    }
+  ]
+}
+RectangleArena {
+  translation -0.5 0 0.5
+  floorSize 33 33
+  floorTileSize 2.0 2.0
+  wallHeight 0.5
+}

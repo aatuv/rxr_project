@@ -1,0 +1,1788 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.581 -0.57 -0.58 2.11
+  position 1.54 93.3 -0.617
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+Pioneer3at {
+  translation -15.5 0 -14.5
+  controller "my_controller"
+  extensionSlot [
+    Compass {
+      translation 0 0 0.29
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.03 0.03
+          }
+        }
+      ]
+    }
+    Camera {
+      translation 0.255238 -8.6494e-05 0.175101
+      rotation 0.0015609693329336357 0.9999985726595019 -0.0006465707236937505 1.57081
+      width 16
+      height 16
+      fieldOfView 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.03 0.03
+          }
+        }
+      ]
+    }
+    PointLight {
+      attenuation 0 0 1
+      color 1 1 1
+      intensity 1
+      location 0.1 0 0.1
+    }
+  ]
+}
+RectangleArena {
+  translation -0.5 0 0.5
+  floorSize 33 33
+  floorTileSize 2.0 2.0
+  wallHeight 0.5
+}
+SolidBox {
+  translation 15.5 0.25 -15
+  name "box_0"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -13
+  name "box_1"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -11
+  name "box_2"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -9
+  name "box_3"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -7
+  name "box_4"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -5
+  name "box_5"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -3
+  name "box_6"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 -1
+  name "box_7"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 1
+  name "box_8"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 3
+  name "box_9"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 5
+  name "box_10"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 7
+  name "box_11"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 9
+  name "box_12"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 11
+  name "box_13"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 13
+  name "box_14"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 15
+  name "box_15"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation 15.5 0.25 16.5
+  name "box_16"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 14.5 0.25 -15.5
+  name "box_17"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 14.5 0.25 16.5
+  name "box_18"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -15.5
+  name "box_19"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -13.5
+  name "box_20"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -11.5
+  name "box_21"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -9.5
+  name "box_22"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -7.5
+  name "box_23"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -5.5
+  name "box_24"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -3.5
+  name "box_25"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 -1.5
+  name "box_26"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 0.5
+  name "box_27"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 2.5
+  name "box_28"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 4.5
+  name "box_29"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 6.5
+  name "box_30"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 8.5
+  name "box_31"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 10.5
+  name "box_32"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 12.5
+  name "box_33"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 14.5
+  name "box_34"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 13.5 0.25 16.5
+  name "box_35"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 12.5 0.25 -15.5
+  name "box_36"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 12.5 0.25 16.5
+  name "box_37"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -15.5
+  name "box_38"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -13.5
+  name "box_39"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -11.5
+  name "box_40"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -9.5
+  name "box_41"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -7.5
+  name "box_42"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -5.5
+  name "box_43"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -3.5
+  name "box_44"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 -1.5
+  name "box_45"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 0.5
+  name "box_46"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 2.5
+  name "box_47"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 4.5
+  name "box_48"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 6.5
+  name "box_49"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 8.5
+  name "box_50"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 10.5
+  name "box_51"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 12.5
+  name "box_52"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 14.5
+  name "box_53"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 11.5 0.25 16.5
+  name "box_54"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 10.5 0.25 -15.5
+  name "box_55"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 10.5 0.25 16.5
+  name "box_56"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -15.5
+  name "box_57"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -13.5
+  name "box_58"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -11.5
+  name "box_59"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -9.5
+  name "box_60"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -7.5
+  name "box_61"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -5.5
+  name "box_62"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -3.5
+  name "box_63"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 -1.5
+  name "box_64"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 0.5
+  name "box_65"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 2.5
+  name "box_66"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 4.5
+  name "box_67"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 6.5
+  name "box_68"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 8.5
+  name "box_69"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 10.5
+  name "box_70"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 12.5
+  name "box_71"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 14.5
+  name "box_72"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 9.5 0.25 16.5
+  name "box_73"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 8.5 0.25 -15.5
+  name "box_74"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 8.5 0.25 16.5
+  name "box_75"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -15.5
+  name "box_76"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -13.5
+  name "box_77"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -11.5
+  name "box_78"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -9.5
+  name "box_79"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -7.5
+  name "box_80"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -5.5
+  name "box_81"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -3.5
+  name "box_82"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 -1.5
+  name "box_83"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 0.5
+  name "box_84"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 2.5
+  name "box_85"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 4.5
+  name "box_86"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 6.5
+  name "box_87"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 8.5
+  name "box_88"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 10.5
+  name "box_89"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 12.5
+  name "box_90"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 14.5
+  name "box_91"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 7.5 0.25 16.5
+  name "box_92"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 6.5 0.25 -15.5
+  name "box_93"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 6.5 0.25 16.5
+  name "box_94"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -15.5
+  name "box_95"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -13.5
+  name "box_96"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -11.5
+  name "box_97"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -9.5
+  name "box_98"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -7.5
+  name "box_99"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -5.5
+  name "box_100"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -3.5
+  name "box_101"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 -1.5
+  name "box_102"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 0.5
+  name "box_103"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 2.5
+  name "box_104"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 4.5
+  name "box_105"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 6.5
+  name "box_106"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 8.5
+  name "box_107"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 10.5
+  name "box_108"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 12.5
+  name "box_109"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 14.5
+  name "box_110"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 5.5 0.25 16.5
+  name "box_111"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 4.5 0.25 -15.5
+  name "box_112"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 4.5 0.25 16.5
+  name "box_113"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -15.5
+  name "box_114"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -13.5
+  name "box_115"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -11.5
+  name "box_116"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -9.5
+  name "box_117"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -7.5
+  name "box_118"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -5.5
+  name "box_119"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -3.5
+  name "box_120"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 -1.5
+  name "box_121"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 0.5
+  name "box_122"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 2.5
+  name "box_123"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 4.5
+  name "box_124"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 6.5
+  name "box_125"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 8.5
+  name "box_126"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 10.5
+  name "box_127"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 12.5
+  name "box_128"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 14.5
+  name "box_129"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 3.5 0.25 16.5
+  name "box_130"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 2.5 0.25 -15.5
+  name "box_131"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 2.5 0.25 16.5
+  name "box_132"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -15.5
+  name "box_133"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -13.5
+  name "box_134"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -11.5
+  name "box_135"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -9.5
+  name "box_136"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -7.5
+  name "box_137"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -5.5
+  name "box_138"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -3.5
+  name "box_139"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 -1.5
+  name "box_140"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 0.5
+  name "box_141"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 2.5
+  name "box_142"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 4.5
+  name "box_143"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 6.5
+  name "box_144"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 8.5
+  name "box_145"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 10.5
+  name "box_146"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 12.5
+  name "box_147"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 14.5
+  name "box_148"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 1.5 0.25 16.5
+  name "box_149"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 0.5 0.25 -15.5
+  name "box_150"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation 0.5 0.25 16.5
+  name "box_151"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -15.5
+  name "box_152"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -13.5
+  name "box_153"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -11.5
+  name "box_154"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -9.5
+  name "box_155"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -7.5
+  name "box_156"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -5.5
+  name "box_157"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -3.5
+  name "box_158"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 -1.5
+  name "box_159"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 0.5
+  name "box_160"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 2.5
+  name "box_161"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 4.5
+  name "box_162"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 6.5
+  name "box_163"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 8.5
+  name "box_164"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 10.5
+  name "box_165"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 12.5
+  name "box_166"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 14.5
+  name "box_167"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -0.5 0.25 16.5
+  name "box_168"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -1.5 0.25 -15.5
+  name "box_169"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -1.5 0.25 16.5
+  name "box_170"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -15.5
+  name "box_171"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -13.5
+  name "box_172"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -11.5
+  name "box_173"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -9.5
+  name "box_174"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -7.5
+  name "box_175"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -5.5
+  name "box_176"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -3.5
+  name "box_177"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 -1.5
+  name "box_178"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 0.5
+  name "box_179"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 2.5
+  name "box_180"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 4.5
+  name "box_181"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 6.5
+  name "box_182"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 8.5
+  name "box_183"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 10.5
+  name "box_184"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 12.5
+  name "box_185"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 14.5
+  name "box_186"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -2.5 0.25 16.5
+  name "box_187"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -3.5 0.25 -15.5
+  name "box_188"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -3.5 0.25 16.5
+  name "box_189"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -15.5
+  name "box_190"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -13.5
+  name "box_191"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -11.5
+  name "box_192"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -9.5
+  name "box_193"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -7.5
+  name "box_194"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -5.5
+  name "box_195"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -3.5
+  name "box_196"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 -1.5
+  name "box_197"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 0.5
+  name "box_198"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 2.5
+  name "box_199"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 4.5
+  name "box_200"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 6.5
+  name "box_201"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 8.5
+  name "box_202"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 10.5
+  name "box_203"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 12.5
+  name "box_204"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 14.5
+  name "box_205"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -4.5 0.25 16.5
+  name "box_206"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -5.5 0.25 -15.5
+  name "box_207"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -5.5 0.25 16.5
+  name "box_208"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -15
+  name "box_209"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -13
+  name "box_210"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -11
+  name "box_211"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -9
+  name "box_212"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -7
+  name "box_213"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -5
+  name "box_214"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -3
+  name "box_215"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 -1
+  name "box_216"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 1
+  name "box_217"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 3
+  name "box_218"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 4.5
+  name "box_219"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 6.5
+  name "box_220"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 8.5
+  name "box_221"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 10.5
+  name "box_222"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 12.5
+  name "box_223"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 14.5
+  name "box_224"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -6.5 0.25 16.5
+  name "box_225"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -7.5 0.25 -15.5
+  name "box_226"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -7.5 0.25 -11.5
+  name "box_227"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -7.5 0.25 4.5
+  name "box_228"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -7.5 0.25 16.5
+  name "box_229"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -15.5
+  name "box_230"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -13.5
+  name "box_231"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -11.5
+  name "box_232"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -9
+  name "box_233"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -7
+  name "box_234"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -5
+  name "box_235"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -3
+  name "box_236"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 -1
+  name "box_237"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 1
+  name "box_238"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 2.5
+  name "box_239"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 4.5
+  name "box_240"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 6.5
+  name "box_241"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 8.5
+  name "box_242"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 10.5
+  name "box_243"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 12.5
+  name "box_244"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 14.5
+  name "box_245"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -8.5 0.25 16.5
+  name "box_246"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -9.5 0.25 -15.5
+  name "box_247"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -9.5 0.25 -13.5
+  name "box_248"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -9.5 0.25 -9.5
+  name "box_249"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -9.5 0.25 4.5
+  name "box_250"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -9.5 0.25 16.5
+  name "box_251"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -15.5
+  name "box_252"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -13.5
+  name "box_253"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -11
+  name "box_254"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -9.5
+  name "box_255"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -7
+  name "box_256"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -5
+  name "box_257"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -3.5
+  name "box_258"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 -1
+  name "box_259"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 1
+  name "box_260"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 3
+  name "box_261"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 4.5
+  name "box_262"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 6.5
+  name "box_263"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 8.5
+  name "box_264"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 10.5
+  name "box_265"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 12.5
+  name "box_266"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 14.5
+  name "box_267"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -10.5 0.25 16.5
+  name "box_268"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -15.5
+  name "box_269"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -13.5
+  name "box_270"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -11.5
+  name "box_271"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -9.5
+  name "box_272"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -7.5
+  name "box_273"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 -3.5
+  name "box_274"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 4.5
+  name "box_275"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -11.5 0.25 16.5
+  name "box_276"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -15.5
+  name "box_277"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -13
+  name "box_278"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -11
+  name "box_279"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -9
+  name "box_280"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -7.5
+  name "box_281"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -5.5
+  name "box_282"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -3
+  name "box_283"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 -1
+  name "box_284"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 0.5
+  name "box_285"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 2.5
+  name "box_286"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 4.5
+  name "box_287"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 6.5
+  name "box_288"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 8.5
+  name "box_289"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 10.5
+  name "box_290"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 12.5
+  name "box_291"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 14.5
+  name "box_292"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -12.5 0.25 16.5
+  name "box_293"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 -15.5
+  name "box_294"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 -13.5
+  name "box_295"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 -0.49 -12.5
+  name "box_296"
+ size 1.0 1.0 1.0
+ appearance PBRAppearance {
+ baseColor 0 1 0
+ baseColorMap NULL
+ }
+}
+SolidBox {
+  translation -13.5 0.25 -11.5
+  name "box_297"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 -9.5
+  name "box_298"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 -5.5
+  name "box_299"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 -1.5
+  name "box_300"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 0.5
+  name "box_301"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 2.5
+  name "box_302"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 4.5
+  name "box_303"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -13.5 0.25 16.5
+  name "box_304"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -15.5
+  name "box_305"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -13.5
+  name "box_306"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -11
+  name "box_307"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -9
+  name "box_308"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -7
+  name "box_309"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -5.5
+  name "box_310"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -3.5
+  name "box_311"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 -1.5
+  name "box_312"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 0.5
+  name "box_313"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 2.5
+  name "box_314"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 4.5
+  name "box_315"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 6.5
+  name "box_316"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 8.5
+  name "box_317"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 10.5
+  name "box_318"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 12.5
+  name "box_319"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 14.5
+  name "box_320"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -14.5 0.25 16.5
+  name "box_321"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 -15.5
+  name "box_322"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 -13.5
+  name "box_323"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 -3.5
+  name "box_324"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 2.5
+  name "box_325"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 4.5
+  name "box_326"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -15.5 0.25 16.5
+  name "box_327"
+  size 1.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -15
+  name "box_328"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -13
+  name "box_329"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -11
+  name "box_330"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -9
+  name "box_331"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -7
+  name "box_332"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -5
+  name "box_333"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -3
+  name "box_334"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 -1
+  name "box_335"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 1
+  name "box_336"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 3
+  name "box_337"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 5
+  name "box_338"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 7
+  name "box_339"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 9
+  name "box_340"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 11
+  name "box_341"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 13
+  name "box_342"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 15
+  name "box_343"
+  size 2.0 1.0 1.0
+}
+SolidBox {
+  translation -16.5 0.25 16.5
+  name "box_344"
+  size 1.0 1.0 1.0
+}
